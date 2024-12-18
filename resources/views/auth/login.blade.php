@@ -47,7 +47,7 @@
                     </div>
                     <!-- Card Body -->
                     <div class="card-body">
-                        <form method="POST" action="{{ route('login') }}">
+                        <form method="POST" action="/dashboard">
                             @csrf
                             <!-- Email Field -->
                             <div class="form-group mb-3">
@@ -70,7 +70,7 @@
                     </div>
                     <!-- Card Footer -->
                     <div class="card-footer text-center">
-                        <p>Don't have an account? <a href="{{ route('register') }}">Register here</a></p>
+                        <p>Don't have an account? <a href="/register">Register here</a></p>
                     </div>
                 </div>
             </div>

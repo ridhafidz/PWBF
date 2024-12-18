@@ -47,4 +47,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    public function get_all_users() {
+        // find users and return to controller
+        return $this->User->find('all');
+    }
 }

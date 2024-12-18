@@ -42,7 +42,7 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item text-danger" href="{{ url('/logout') }}">Logout</a>
                     @else
-                        <a class="dropdown-item" href="{{ url('/login') }}">Login</a>
+                        <a class="dropdown-item" href="{{ url('/login')     }}">Login</a>
                         <a class="dropdown-item" href="{{ url('/register') }}">Register</a>
                     @endauth
                 </div>

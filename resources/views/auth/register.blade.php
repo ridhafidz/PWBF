@@ -32,16 +32,6 @@
                                 <label for="phone_number">Phone Number</label>
                                 <input type="tel" id="phone_number" name="phone_number" class="form-control" placeholder="Enter your phone number" required>
                             </div>
-                            <!-- Role -->
-                            <div class="form-group mb-3">
-                                <label for="role">Role</label>
-                                <select id="role" name="role" class="form-control" required>
-                                    <option value="" disabled selected>Select a role</option>
-                                    <option value="admin">Admin</option>
-                                    <option value="user">User</option>
-                                    <option value="partner">Partner</option>
-                                </select>
-                            </div>
                             <!-- Password -->
                             <div class="form-group mb-3">
                                 <label for="password">Password</label>
