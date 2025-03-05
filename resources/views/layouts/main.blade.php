@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Shuffle Bootstrap Template</title>
+  <title>KickSpace</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,7 +44,7 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Shuffle</h1>
+        <h1 class="sitename">Kickspace</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -221,9 +221,9 @@
             <label for="role_id">Pilih Role</label>
             <select name="role_id" id="role_id" class="form-control" required>
                 <option value="">Pilih Role</option>
-                {{-- @foreach ($roles as $role)
+                @foreach ($roles as $role)
                     <option value="{{ $role->id }}">{{ $role->name }}</option>
-                @endforeach --}}
+                @endforeach
             </select>
         </div>
 
